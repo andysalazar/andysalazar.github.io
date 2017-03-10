@@ -1,0 +1,315 @@
+                            /* Navigation */
+                            
+                            nav {
+                                background-color: #00293c;
+                                font-family: 'Oswald', sans-serif;
+                                height: 100px;
+                            }
+                            
+                            nav h1 {
+                                text-align: left;
+                                padding-left: 110px;
+                                padding-top: 10px;
+                                display: inline;
+                                float: left;
+                            }
+                            
+                            nav ul {
+                                list-style-type: none;
+                                /*Removes the bullets from the unordered list */
+                                text-align: right;
+                                float: right
+                            }
+                            
+                            nav ul li {
+                                display: inline;
+                                /* Makes navbar horizontal (on one line, or inline) */
+                                padding: 0px 15px 0px 15px
+                            }
+                            
+                            nav ul li a {
+                                color: #f1f3ce;
+                                text-decoration: none;
+                                /* Gets rid of the underline */
+                                display: inline-block;
+                                /* Keeps links on one line (inline) and makes them blocks so we can edit height, width, and spacing between each link. Most importantly, "block" makes the whole link area clickable--you're able to click on a square instead of just the word. */
+                                padding: 20px;
+                                /*Expands the clickable block, or square */
+                            }
+                            
+                            nav a:hover {
+                                background-color: #f1f3ce;
+                                color: #00293c;
+                            }
+                            
+                            img.nav-logo {
+                                height: 100px;
+                                width: 100px;
+                                position: absolute;
+                            }
+                            /* BODY */
+                            
+                            body {
+                                background-color: #1e656d;
+                            }
+                            /* Basic */
+                            
+                            b {
+                                color: #1e656d;
+                            }
+                            
+                            h1 {
+                                color: #f1f3ce;
+                                font-family: 'Oswald', sans-serif;
+                            }
+                            
+                            h2 {
+                                color: #1e656d;
+                                font-family: 'Oswald', sans-serif;
+                            }
+                            
+                            h3 {
+                                color: white;
+                                font-family: 'Oswald', sans-serif;
+                                font-size: 18px;
+                                padding: 0px;
+                            }
+                            
+                            p {
+                                color: white;
+                                font-family: 'Open Sans', sans-serif;
+                            }
+                            
+                            .box-link {
+                                text-align: right;
+                                font-family: 'Oswald', sans-serif;
+                                float: right;
+                                display: inline;
+                            }
+                            
+                            .box-link a {
+                                display: inline-block;
+                                padding: 10px;
+                                text-decoration: none;
+                                background-color: #f1f3ce;
+                                color: #00293c;
+                            }
+                            /* home page 1st row */
+                            
+                            .content-image-home {
+                                background: url("images/me.jpg") no-repeat center center;
+                                height: 400px;
+                                background-size: cover;
+                            }
+                            
+                            .content-image-resume {
+                                background: url("images/logo_400px.png") no-repeat center center;
+                                height: 400px;
+                                background-size: cover;
+                            }
+                            
+                            .content-image-container {
+                                background: #00293c;
+                                opacity: 0.3;
+                                height: 400px;
+                            }
+                            
+                            .content-container {
+                                background: #00293c;
+                                height: 400px;
+                            }
+                            
+                            .content {
+                                padding: 30px;
+                            }
+                            /* home page 2nd row */
+                            
+                            .hero-image {
+                                background: url(images/houston.jpg) no-repeat center center;
+                                height: 300px;
+                                background-size: cover;
+                            }
+                            
+                            .hero-image-container {
+                                background: #00293c;
+                                opacity: 0.6;
+                                height: 300px;
+                            }
+                            
+                            .hero-image-text {
+                                padding-top: 6%;
+                                padding-left: 12%;
+                                padding-right: 12%;
+                            }
+                            
+                            .hero-image-text h1 {
+                                text-align: center;
+                                font-style: italic;
+                                color: white;
+                            }
+                            /* home page 3rd row */
+                            
+                            .content-3-columns {
+                                text-align: center;
+                            }
+                            
+                            .column-home {
+                                background: #00293c;
+                                height: 400px;
+                                padding: 30px;
+                            }
+                            
+                            .column-home h2 {
+                                font-size: 40px;
+                            }
+                            
+                            img.box-logo {
+                                height: 100px;
+                                width: 100px;
+                            }
+                            /* all */
+                            
+                            .row-padding {
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                            }
+                            /* resume page */
+                            
+                            .resume-titles {
+                                background-color: #00293c;
+                                padding-left: 5px;
+                            }
+                            
+                            .resume-titles h1 {
+                                color: #f1f3ce;
+                                padding: 5px;
+                                text-align: center;
+                            }
+                            
+                            .column-resume {
+                                background: #00293c;
+                                height: 250px;
+                                padding: 10%;
+                            }
+                            
+                            .column-resume h2 {
+                                font-size: 40px;
+                            }
+                            
+                            .content-4-columns {
+                                text-align: center;
+                            }
+                            
+                            .content-image-education {
+                                background: url("images/UNT-2.jpg") no-repeat center center;
+                                height: 300px;
+                                background-size: cover;
+                            }
+                            
+                            .content-image-education-container {
+                                background: #00293c;
+                                opacity: 0.5;
+                                height: 300px;
+                            }
+                            
+                            .education-container {
+                                background: #00293c;
+                                height: 300px;
+                            }
+                            
+                            .education {
+                                padding-left: 40px;
+                                padding-right: 20px;
+                                padding-top: 30px;
+                            }
+                            
+                            .experience-container {
+                                background: #00293c;
+                                height: 400px;
+                            }
+                            
+                            .experience {
+                                padding: 20px;
+                            }
+                            
+                            .mcenroe-image {
+                                background: url(images/McEnroe/mcenroe-mockup.png) no-repeat center center;
+                                height: 400px;
+                                background-size: cover;
+                            }
+                            
+                            .mcenroe-image-container {
+                                background: #00293c;
+                                opacity: 0.4;
+                                height: 400px;
+                            }
+                            
+                            .frisco-image {
+                                background: url(images/Frisco/frisco-campus.jpg) no-repeat center center;
+                                height: 400px;
+                                background-size: cover;
+                            }
+                            
+                            .frisco-image-container {
+                                background: #00293c;
+                                opacity: 0.4;
+                                height: 400px;
+                            }
+                            /* Portfolio */
+                            
+                            .portfolio-container {
+                                background: #00293c;
+                                height: 675px;
+                            }
+                            
+                            .portfolio {
+                                padding: 30px;
+                            }
+                            
+                            .mcenroe-image-portfolio {
+                                background: url(images/McEnroe/mcenroe-mockup.png) no-repeat center center;
+                                height: 250px;
+                                background-size: cover;
+                            }
+                            
+                            .mcenroe-image-portfolio-container {
+                                background: #00293c;
+                                opacity: 0.4;
+                                height: 250px;
+                            }
+                            
+                            .wwf-image-portfolio {
+                                background: url(images/wwf/wwf-inside.png) no-repeat center center;
+                                height: 250px;
+                                background-size: cover;
+                            }
+                            
+                            .wwf-image-portfolio-container {
+                                background: #00293c;
+                                opacity: 0.4;
+                                height: 250px;
+                            }
+                            
+                            .frisco-image-portfolio {
+                                background: url(images/Frisco/frisco-map.PNG) no-repeat center center;
+                                height: 250px;
+                                background-size: cover;
+                            }
+                            
+                            .frisco-image-portfolio-container {
+                                background: #00293c;
+                                opacity: 0.4;
+                                height: 250px;
+                            }
+                            
+                            .bus-image-portfolio {
+                                background: url(images/bus-safety/bus-mockup.png) no-repeat center center;
+                                height: 250px;
+                                background-size: cover;
+                            }
+                            
+                            .bus-image-portfolio-container {
+                                background: #00293c;
+                                opacity: 0.4;
+                                height: 250px;
+                            }
