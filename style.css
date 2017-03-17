@@ -404,9 +404,9 @@ img.box-logo {
     }
 }
 
-@media only screen and (max-width: 1122px) {
+@media only screen and (max-width: 1100px) {
     .content-image-home {
-        height: 425px;
+        height: 280px;
     }
 }
 
@@ -557,10 +557,10 @@ img.box-logo {
 
 @media only screen and (max-width: 1100px) {
     .content-image-education-container {
-        height: 280px;
+        height: 180px;
     }
     .content-image-education {
-        height: 280px;
+        height: 180px;
     }
 }
 
@@ -640,16 +640,16 @@ img.box-logo {
         height: 380px;
     }
      .mcenroe-image-container {
-        height: 280px;
+        height: 180px;
     }
     .mcenroe-image {
-        height: 280px;
+        height: 180px;
     }
     .frisco-image-container {
-        height: 280px;
+        height: 180px;
     }
     .frisco-image {
-        height: 280px;
+        height: 180px;
     }
 }
 
