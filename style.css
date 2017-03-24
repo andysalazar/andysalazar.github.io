@@ -402,7 +402,6 @@ img.box-logo {
     .content-image-container {
         height: 425px;
     }
-    
      .content-image-home {
         height: 425px;
     }
@@ -410,6 +409,10 @@ img.box-logo {
 
 @media only screen and (max-width: 1100px) {
     .content-image-home {
+        height: 280px;
+    }
+    
+    .content-image-container {
         height: 280px;
     }
 }
